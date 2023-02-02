@@ -1,3 +1,11 @@
+'''
+The purpose of this code is to interact with a remote Github repository. It starts by importing the os module to interact with the operating system, and then retrieves the current working directory. It then changes the current working directory to "/content/drive/MyDrive/Colab Notebooks/Streamlit_Demo/streamlit_app_git".
+
+The user is then prompted to enter their Github email, username, password, and token. The code then pulls changes from the remote repository using the user's credentials. The git status command is used to check the status of the repository.
+
+The code then stages all changes using the git add command, commits the changes with a message, and checks the URL of the remote repository using the git remote -v command. Finally, the code pushes the changes to the remote repository.
+'''
+
 
 ## Import os module to interact with the operating system
 import os
