@@ -2,12 +2,9 @@
 
 Blog: https://medium.com/@anpuntam/streamlit-powered-used-car-price-prediction-a-hands-on-application-of-machine-learning-55dda1e2e663
 
-cars24_ml_app.py creates a web application that predicts the price of a used car. The user interface is built using the streamlit library and the data is loaded from a CSV file using pandas.
+The Cars24_ml_app.py is a machine learning web application that predicts the price of a used car. The code uses the streamlit library to create the UI, pandas to load the data from a CSV file, and a pre-trained machine learning model that was saved using the pickle library. The user can select the input features (fuel type, transmission type, engine power, and number of seats) using drop-down menus and sliders. The prediction is triggered by clicking the "Predict Price" button and the result is displayed as text on the UI. Additionally, there is a date input feature where the user can enter a date and see it displayed. At the end of the code, there is commented-out code for creating a bar chart.
 
-The user can select the car features using drop-down menus and sliders for fuel type, transmission type, engine power, and number of seats. The prediction is triggered by pressing the "Predict Price" button. The result is displayed as text on the user interface.
+The git_setup_colab.py code sets up interaction between a local repository and a remote Github repository. The code starts by importing the os module and retrieves the current working directory. It then changes the current working directory to the desired location. The user is then prompted to enter their Github email, username, password, and token. The code pulls changes from the remote repository, stages changes using the git add command, commits the changes with a message, and pushes the changes to the remote repository.
 
-The code also includes a date input feature where the user can input a date, which is then displayed on the user interface.
 
-A bar chart has been commented out at the end of the code that could be used to visualize data from the CSV file, with the x-axis as fuel type and the y-axis as mileage.
 
-In the code git_setup_colab.py, the user is prompted to enter their Github email, username, password, and token. The code then pulls changes from the remote repository using the user's credentials, stages all changes, commits the changes with a message, checks the URL of the remote repository, and finally pushes the changes to the remote repository.
