@@ -1,4 +1,4 @@
-# Cars24 Used Car Price Prediction README
+# Car-Price-Prediction-and-Visualization-Using-Streamlit
 
 Blog: https://medium.com/@anpuntam/streamlit-powered-used-car-price-prediction-a-hands-on-application-of-machine-learning-55dda1e2e663
 
